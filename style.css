@@ -459,7 +459,7 @@ input::placeholder {
 .bg_page_3 {
     background-image: url(img/bg_page_3.png);
     width: 1445px;
-    height: 1270px;
+    height: 1331px;
     margin-top: 40px;
 }
 
@@ -584,3 +584,30 @@ input::placeholder {
     margin-left: 20px;
     padding-bottom: 5px;
 }
+
+.footer {
+    display: flex;
+}
+
+.footer_name_text {
+    font-family: Red Hat Text;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    margin-left: 570px;
+    padding-top: 5px;
+}
+
+.footer_nuv {
+    width: 140.96px;
+    height: 33.65px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 349px;
+    margin-top: 13px;
+
+}
+
