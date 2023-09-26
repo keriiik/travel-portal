@@ -14,24 +14,33 @@ body{
     margin: 0;
 }
 .page_1 {
-    width: 1440px;
+    width: 100%;
+    background-size: 100%;
     height: 765px;  
     background-image: url(img/bg_1.png);
+    background-repeat: no-repeat;
+}
+
+.header_conteiner {
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+    width: 1440px;
 }
 
 .header {
-    width: 1440px;
+    width: 100%;
     height: 90px;
     background: #F2785CB2;
     box-shadow: 0px 4px 4px 0px #0D606F80;
     display: flex;
+    padding-left: 120px;
 }
 
 .logo {
     width: 30px;
     height: 30px;
     padding-top: 26px;
-    padding-left: 120px;
 }
 
 .logo_text {
@@ -41,7 +50,7 @@ body{
     line-height: 39px;
     color:#FFFFFF;
     padding-top: 4px;
-    padding-left: 6px;    
+    padding-left: 6px;   
 }
 
 .header_nuv {
@@ -107,13 +116,17 @@ body{
     padding: 25px; 
 }
 
+.page_1_conteiner {
+    margin: 0 auto;
+    width: 1440px;
+}
+
 .page_1_content {
-    width: 892px;
+    width: 100%;
     height: 422px;
-    padding-left: 120px;
     padding-top: 31px;
-
-
+    margin: 0;
+    padding-left: 120px;
 }
 
 .page_1_content_name {
@@ -210,6 +223,7 @@ input::placeholder {
 
 .page_2 {
     width: 1440px;
+    margin: 0 auto;
 }
 
 .page_2_header {
@@ -329,6 +343,10 @@ input::placeholder {
     z-index: 50;
 }
 
+.japan {
+    margin-left: 11px;
+}
+
 .carousel_img2 {
     width: 800px;
     height: 800px;
@@ -336,6 +354,10 @@ input::placeholder {
     margin-left: 50px;
     position: relative;
     z-index: 50;
+}
+
+.usa {
+    margin-left: 10px;
 }
 
 .carousel_img3 {
@@ -351,15 +373,6 @@ input::placeholder {
     margin-left: -540px;
 }
 
-.country_1 { 
-    font-family: Red Hat Text;
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 42px;
-    position: absolute;
-    z-index: 100;
-}
-
 .country {
     font-family: Red Hat Text;
     font-size: 32px;
@@ -368,7 +381,7 @@ input::placeholder {
     position: absolute;
     z-index: 100;
     margin-top: 718px;
-    margin-left: 75px;
+    margin-left: 65px;
     color: #FFFFFF;
 }
 
@@ -391,7 +404,7 @@ input::placeholder {
     height: 20px;
     display: flex;
     justify-content: space-between;
-    margin-left: 670px;
+    margin-left: 683px;
     margin-top: 21px;
 }
 
@@ -427,7 +440,7 @@ input::placeholder {
     box-shadow: 0px 0px 3px 0px #0D606F14;
     border: 0;
     align-items: center;
-    margin-left: 590px;
+    margin-left: 610px;
     margin-top: 38px;
     cursor: pointer;
 }
@@ -446,26 +459,33 @@ input::placeholder {
     padding-bottom: 5px;
 }
 
+.page_3_header_conteiner {
+    width: 1440px;
+    margin: 0 auto;
+}
+
 .header_page_3 {
     font-family: Red Hat Text;
     font-size: 40px;
     font-weight: 500;
     line-height: 53px;
     color: #F2785C;
-    margin-left: 535px;
+    margin-left: 555px;
     margin-top: 80px;
+    
 }
 
 .bg_page_3 {
     background-image: url(img/bg_page_3.png);
-    width: 1445px;
+    background-size: 100%;
     height: 1331px;
     margin-top: 40px;
+    background-repeat: no-repeat;
 }
 
 .page_3_content {
     background-color: #FFFFFFB2;
-    width: 1445px;
+    width: 100%;
     height: 1270px;
 }
 
@@ -478,6 +498,8 @@ input::placeholder {
 
 .page_3_content_1 {
     display: flex;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .article_name_1 {
@@ -512,6 +534,8 @@ input::placeholder {
 
 .page_3_content_2 {
     display: flex;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .img_2_page_3 {
@@ -543,10 +567,19 @@ input::placeholder {
 
 .page_3_content_3 {
     display: flex;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .page_3_content_4 {
     display: flex;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.button_SeeMore_conteiner {
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .button_SeeMore:active {
@@ -566,7 +599,7 @@ input::placeholder {
     box-shadow: 0px 0px 3px 0px #0D606F14;
     border: 0;
     align-items: center;
-    margin-left: 590px;
+    margin-left: 610px;
     margin-top: 38px;
     cursor: pointer;
 }
@@ -587,6 +620,8 @@ input::placeholder {
 
 .footer {
     display: flex;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .footer_name_text {
@@ -596,7 +631,7 @@ input::placeholder {
     line-height: 21px;
     letter-spacing: 0em;
     color: #FFFFFF;
-    margin-left: 570px;
+    margin-left: 590px;
     padding-top: 5px;
 }
 
@@ -606,7 +641,7 @@ input::placeholder {
     display: flex;
     align-items: center;
     justify-content:space-between;
-    margin-left: 349px;
+    margin-left: 329px;
     margin-top: 13px;
 
 }
